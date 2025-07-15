@@ -1,0 +1,81 @@
+/* Dark theme styling for readability and bot parsing */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  padding: 0;
+  background-color: #1a1a2e; /* Dark background */
+  color: #e0e0e0; /* Light text */
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #2a2a4a; /* Slightly lighter dark background for container */
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* More prominent shadow */
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #8be9fd; /* Light blue for headings */
+  border-bottom: 1px solid #444466; /* Darker border */
+  padding-bottom: 5px;
+  margin-top: 25px;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.6em;
+}
+h3 {
+  font-size: 1.3em;
+}
+h4 {
+  font-size: 1.1em;
+}
+p {
+  margin-bottom: 10px;
+}
+ul,
+ol {
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 5px;
+}
+pre {
+  background-color: #3a3a5a; /* Darker background for code blocks */
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #555577; /* Subtle border for pre */
+}
+code {
+  font-family: "Courier New", Courier, monospace;
+  color: #f1fa8c; /* Yellowish color for inline code */
+}
+pre code {
+  color: #f8f8f2; /* Lighter color for code inside pre */
+  display: block;
+}
+strong {
+  color: #ff79c6; /* Pinkish color for strong text */
+}
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #444466; /* Darker horizontal rule */
+  margin: 30px 0;
+}
+.bot-Response{
+    background-color: #444477;
+    padding: 5px;
+}
